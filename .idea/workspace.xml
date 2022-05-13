@@ -101,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1652428166815</updated>
       <workItem from="1652428168062" duration="1529000" />
-      <workItem from="1652434237986" duration="3249000" />
+      <workItem from="1652434237986" duration="3303000" />
     </task>
     <task id="LOCAL-00001" summary="added code format to github workflow">
       <created>1652448657891</created>
@@ -110,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652448657892</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added code format to github workflow">
+      <created>1652448783274</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652448783274</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

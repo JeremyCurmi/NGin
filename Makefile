@@ -4,7 +4,7 @@ install:
 format:
 	python3.10 -m black .
 
-checkFormat:
+check-format:
 	python3.10 -m black --check .
 
 lint:
