@@ -33,7 +33,7 @@ jobs:
           make install
       - name: Check formatting
         run: |
-          - make check-format
+          - make checkFormat
       - name: Lint with pylint
         run: |
           make lint
