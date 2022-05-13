@@ -4,6 +4,9 @@ install:
 format:
 	python3.10 -m black .
 
+check-format:
+	python3.10 -m black --check .
+
 lint:
 	pylint --disable=R,C ./src
 
