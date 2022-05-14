@@ -1,3 +1,7 @@
+alembic
+SQLAlchemy
+psycopg2-binary
+python-dotenv
 black
 pylint
 pytest

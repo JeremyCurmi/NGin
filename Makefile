@@ -12,3 +12,7 @@ lint:
 
 test:
 	python -m pytest -vv --cov=tests/ tests/.
+
+setup-db:
+	alembic init alembic
+	alembic revision -m "initial"
