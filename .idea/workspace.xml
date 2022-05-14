@@ -2,40 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e38fd91-1612-45f9-b72f-3e5c32baa841" name="Changes" comment="db alembic setup">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3c6655ea-bca2-4571-aa94-516a03780f26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b2ac94e2-2a87-4b50-b961-152d9e9ff3cc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b2ac94e2-2a87-4b50-b961-152d9e9ff3cc/storage_v2/_src_/database/DataStore.N3MgYQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b2ac94e2-2a87-4b50-b961-152d9e9ff3cc/storage_v2/_src_/database/DataStore.N3MgYQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b2ac94e2-2a87-4b50-b961-152d9e9ff3cc/storage_v2/_src_/database/DataStore.N3MgYQ/schema/information_schema.FNRwLQ.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b2ac94e2-2a87-4b50-b961-152d9e9ff3cc/storage_v2/_src_/database/DataStore.N3MgYQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b2ac94e2-2a87-4b50-b961-152d9e9ff3cc/storage_v2/_src_/database/DataStore.N3MgYQ/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b2ac94e2-2a87-4b50-b961-152d9e9ff3cc/storage_v2/_src_/database/DataStore.N3MgYQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b2ac94e2-2a87-4b50-b961-152d9e9ff3cc/storage_v2/_src_/database/postgres.edMnLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b2ac94e2-2a87-4b50-b961-152d9e9ff3cc/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b2ac94e2-2a87-4b50-b961-152d9e9ff3cc/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b2ac94e2-2a87-4b50-b961-152d9e9ff3cc/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/v1/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/v1/routers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/v1/routers/ml_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/session.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/NGin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NGin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3c6655ea-bca2-4571-aa94-516a03780f26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3c6655ea-bca2-4571-aa94-516a03780f26.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b2ac94e2-2a87-4b50-b961-152d9e9ff3cc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b2ac94e2-2a87-4b50-b961-152d9e9ff3cc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2c8d376-7324-4bd6-b63b-c89b574f98dd.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alembic/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/alembic/env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alembic/versions/bf5585e9d96e_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/alembic/versions/bf5585e9d96e_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +122,8 @@
       <option name="presentableId" value="Default" />
       <updated>1652428166815</updated>
       <workItem from="1652428168062" duration="1529000" />
-      <workItem from="1652434237986" duration="12704000" />
+      <workItem from="1652434237986" duration="12813000" />
+      <workItem from="1652562145306" duration="59000" />
     </task>
     <task id="LOCAL-00001" summary="added code format to github workflow">
       <created>1652448657891</created>
