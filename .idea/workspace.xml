@@ -1,19 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e38fd91-1612-45f9-b72f-3e5c32baa841" name="Changes" comment="added code format to github workflow">
-      <change afterPath="$PROJECT_DIR$/.env_sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e2c8d376-7324-4bd6-b63b-c89b574f98dd.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alembic.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alembic/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alembic/env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alembic/script.py.mako" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alembic/versions/bf5585e9d96e_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="3e38fd91-1612-45f9-b72f-3e5c32baa841" name="Changes" comment="db alembic setup">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3c6655ea-bca2-4571-aa94-516a03780f26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b2ac94e2-2a87-4b50-b961-152d9e9ff3cc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b2ac94e2-2a87-4b50-b961-152d9e9ff3cc/storage_v2/_src_/database/DataStore.N3MgYQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b2ac94e2-2a87-4b50-b961-152d9e9ff3cc/storage_v2/_src_/database/DataStore.N3MgYQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b2ac94e2-2a87-4b50-b961-152d9e9ff3cc/storage_v2/_src_/database/DataStore.N3MgYQ/schema/information_schema.FNRwLQ.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b2ac94e2-2a87-4b50-b961-152d9e9ff3cc/storage_v2/_src_/database/DataStore.N3MgYQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b2ac94e2-2a87-4b50-b961-152d9e9ff3cc/storage_v2/_src_/database/DataStore.N3MgYQ/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b2ac94e2-2a87-4b50-b961-152d9e9ff3cc/storage_v2/_src_/database/DataStore.N3MgYQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b2ac94e2-2a87-4b50-b961-152d9e9ff3cc/storage_v2/_src_/database/postgres.edMnLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b2ac94e2-2a87-4b50-b961-152d9e9ff3cc/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b2ac94e2-2a87-4b50-b961-152d9e9ff3cc/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b2ac94e2-2a87-4b50-b961-152d9e9ff3cc/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/v1/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/v1/routers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/v1/routers/ml_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/session.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/NGin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NGin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alembic/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/alembic/env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alembic/versions/bf5585e9d96e_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/alembic/versions/bf5585e9d96e_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +66,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="DatabaseDriversLRU" value="sqlite&#10;postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -54,15 +75,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Makefile Target.lint">
+  <component name="RunManager" selected="Python.main">
     <configuration name="format" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
       <makefile filename="$PROJECT_DIR$/Makefile" target="format" workingDirectory="" arguments="">
-        <envs />
-      </makefile>
-      <method v="2" />
-    </configuration>
-    <configuration name="install" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
-      <makefile filename="$PROJECT_DIR$/Makefile" target="install" workingDirectory="" arguments="">
         <envs />
       </makefile>
       <method v="2" />
@@ -77,6 +92,28 @@
       <makefile filename="$PROJECT_DIR$/Makefile" target="test" workingDirectory="" arguments="">
         <envs />
       </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NGin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for test_sample.test_sample" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -96,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Makefile Target.lint" />
         <item itemvalue="Makefile Target.lint" />
         <item itemvalue="Makefile Target.format" />
         <item itemvalue="Makefile Target.test" />
-        <item itemvalue="Makefile Target.install" />
       </list>
     </recent_temporary>
   </component>
@@ -113,7 +150,7 @@
       <option name="presentableId" value="Default" />
       <updated>1652428166815</updated>
       <workItem from="1652428168062" duration="1529000" />
-      <workItem from="1652434237986" duration="5171000" />
+      <workItem from="1652434237986" duration="12704000" />
     </task>
     <task id="LOCAL-00001" summary="added code format to github workflow">
       <created>1652448657891</created>
@@ -136,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652448836594</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="db alembic setup">
+      <created>1652545360398</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652545360398</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,9 +211,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added code format to github workflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="added code format to github workflow" />
+    <MESSAGE value="db alembic setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="db alembic setup" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/NGin$main.coverage" NAME="main Coverage Results" MODIFIED="1652560750016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NGin$.coverage" NAME=" Coverage Results" MODIFIED="1652447699834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
 </project>

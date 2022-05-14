@@ -2,6 +2,9 @@ alembic
 SQLAlchemy
 psycopg2-binary
 python-dotenv
+fastapi==0.74.0
+pydantic==1.9.0
+uvicorn==0.17.5
 black
 pylint
 pytest
