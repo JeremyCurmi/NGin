@@ -16,3 +16,9 @@ test:
 setup-db:
 	alembic init alembic
 	alembic revision -m "initial"
+
+upgrade-db:
+	alembic upgrade head
+
+downgrade-db:
+	alembic downgrade base
