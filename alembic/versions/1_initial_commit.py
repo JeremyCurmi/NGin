@@ -48,14 +48,25 @@ def upgrade():
     op.create_table(
         "userModel",
         sa.Column("user_id", sa.Integer, sa.ForeignKey("user.id"), onupdate="CASCADE"),
-        sa.Column("model_id", sa.Integer, sa.ForeignKey("model.id"), onupdate="CASCADE"),
+        sa.Column(
+            "model_id", sa.Integer, sa.ForeignKey("model.id"), onupdate="CASCADE"
+        ),
+        sa.ForeignKeyConstraint(["user_id"], ["user.id"]),
+        sa.ForeignKeyConstraint(["model_id"], ["model.id"]),
         sa.PrimaryKeyConstraint("user_id", "model_id"),
     )
 
     op.create_table(
         "modelModelType",
-        sa.Column("model_id", sa.Integer, sa.ForeignKey("model.id"), onupdate="CASCADE"),
-        sa.Column("model_type_id", sa.Integer, sa.ForeignKey("modelType.id"), onupdate="CASCADE"),
+        sa.Column(
+            "model_id", sa.Integer, sa.ForeignKey("model.id"), onupdate="CASCADE"
+        ),
+        sa.Column(
+            "model_type_id",
+            sa.Integer,
+            sa.ForeignKey("modelType.id"),
+            onupdate="CASCADE",
+        ),
         sa.PrimaryKeyConstraint("model_id", "model_type_id"),
     )
 
@@ -69,8 +80,15 @@ def upgrade():
 
     op.create_table(
         "modelModelVersion",
-        sa.Column("model_id", sa.Integer, sa.ForeignKey("model.id"), onupdate="CASCADE"),
-        sa.Column("model_version_id", sa.Integer, sa.ForeignKey("modelVersion.id"), onupdate="CASCADE"),
+        sa.Column(
+            "model_id", sa.Integer, sa.ForeignKey("model.id"), onupdate="CASCADE"
+        ),
+        sa.Column(
+            "model_version_id",
+            sa.Integer,
+            sa.ForeignKey("modelVersion.id"),
+            onupdate="CASCADE",
+        ),
         sa.PrimaryKeyConstraint("model_id", "model_version_id"),
     )
 

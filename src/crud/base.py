@@ -25,7 +25,7 @@ class DBCrud(ABC):
         return self.save(self.model(*args, **kwargs))
 
     @abstractmethod
-    def get_by_id(self, id: Union[str, UUID4, int]) -> models.Base:
+    def get_by_id(self, id: str | int) -> models.Base:
         return self.db.query(self.model).filter(self.model.id == id).first()
 
     @abstractmethod
@@ -39,5 +39,9 @@ class DBCrud(ABC):
         return self.db.query(self.model).filter(self.model.id == id).delete()
 
     @abstractmethod
-    def update(self, id: Union[str, int], *args, **kwargs) -> models.Base:
-        return self.db.query(self.model).filter(self.model.id == id).update(*args, **kwargs)
+    def update(self, id: str | int, *args, **kwargs) -> models.Base:
+        return (
+            self.db.query(self.model)
+            .filter(self.model.id == id)
+            .update(*args, **kwargs)
+        )

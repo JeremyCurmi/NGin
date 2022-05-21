@@ -3,12 +3,18 @@ from datetime import datetime
 
 
 class UserModelBase(BaseModel):
-    user_id: int
+    pass
 
 
 class UserModelCreate(UserModelBase):
+    user_id: int
     model_id: int
 
+    def parser(self) -> dict:
+        return {
+            "user_id": self.user_id,
+            "model_id": self.model_id,
+        }
 
 class UserModelUpdate(UserModelBase):
     pass
@@ -17,16 +23,21 @@ class UserModelUpdate(UserModelBase):
 class UserModelInDBBase(UserModelBase):
     pass
 
+    class Config:
+        orm_mode = True
+
 
 class UserModel(UserModelInDBBase):
     """Additional properties to return via API"""
-    pass
+    user_id: int
+    model_id: int
 
 
 class UserModelInDB(UserModelInDBBase):
     """Additional properties saved in db"""
+
     pass
-    
+
 
 class ModelModelVersionBase(BaseModel):
     model_id: int
@@ -43,12 +54,17 @@ class ModelModelVersionUpdate(ModelModelVersionBase):
 class ModelModelVersionInDBBase(ModelModelVersionBase):
     pass
 
+    class Config:
+        orm_mode = True
+
 
 class ModelModelVersion(ModelModelVersionInDBBase):
     """Additional properties to return via API"""
+
     pass
 
 
 class ModelModelVersionInDB(ModelModelVersionInDBBase):
     """Additional properties saved in db"""
+
     pass

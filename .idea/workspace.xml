@@ -1,34 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3e38fd91-1612-45f9-b72f-3e5c32baa841" name="Changes" comment="db alembic setup">
-      <change afterPath="$PROJECT_DIR$/alembic/versions/1_initial_commit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/db_diagram.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/v1/routers/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/v1/routers/model_version.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/v1/routers/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/dependencies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crud/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crud/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crud/crud_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/relation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schemas/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schemas/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schemas/relation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schemas/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/security.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crud/crud_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crud/crud_model_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crud/crud_user_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/3c6655ea-bca2-4571-aa94-516a03780f26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3c6655ea-bca2-4571-aa94-516a03780f26.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b2ac94e2-2a87-4b50-b961-152d9e9ff3cc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b2ac94e2-2a87-4b50-b961-152d9e9ff3cc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b2ac94e2-2a87-4b50-b961-152d9e9ff3cc/storage_v2/_src_/database/DataStore.N3MgYQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b2ac94e2-2a87-4b50-b961-152d9e9ff3cc/storage_v2/_src_/database/DataStore.N3MgYQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alembic/versions/bf5585e9d96e_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alembic/versions/1_initial_commit.py" beforeDir="false" afterPath="$PROJECT_DIR$/alembic/versions/1_initial_commit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/v1/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/v1/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/v1/routers/ml_model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/session.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/v1/routers/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/v1/routers/api_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/v1/routers/model_version.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/v1/routers/api_model_version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/v1/routers/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/v1/routers/api_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/dependencies.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/dependencies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crud/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/crud/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crud/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/crud/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crud/crud_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/crud/crud_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/relation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/relation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schemas/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schemas/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schemas/relation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/relation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schemas/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/v1/routers/api_relation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +54,7 @@
       </list>
     </option>
   </component>
+  <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -54,6 +62,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -65,10 +76,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "WebServerToolWindowFactoryState": "false"
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/jeremy/src/NGin",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Makefile Target.format">
     <configuration name="format" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
       <makefile filename="$PROJECT_DIR$/Makefile" target="format" workingDirectory="" arguments="">
         <envs />
@@ -126,11 +147,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
         <item itemvalue="Makefile Target.lint" />
         <item itemvalue="Makefile Target.lint" />
         <item itemvalue="Makefile Target.format" />
-        <item itemvalue="Makefile Target.test" />
       </list>
     </recent_temporary>
   </component>
@@ -209,8 +228,8 @@
     <MESSAGE value="db alembic setup" />
     <option name="LAST_COMMIT_MESSAGE" value="db alembic setup" />
   </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/NGin$main.coverage" NAME="main Coverage Results" MODIFIED="1652560750016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/NGin$.coverage" NAME=" Coverage Results" MODIFIED="1652447699834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
   </component>
 </project>

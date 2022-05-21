@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="dataSourceStorageLocal" created-in="PY-221.5591.52">
+  <component name="dataSourceStorageLocal" created-in="GO-221.5591.52">
     <data-source name="DataStore" uuid="b2ac94e2-2a87-4b50-b961-152d9e9ff3cc">
       <database-info product="PostgreSQL" version="12.2 (Debian 12.2-2.pgdg100+1)" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.3.3" dbms="POSTGRES" exact-version="12.2" exact-driver-version="42.3">
         <identifier-quote-string>&quot;</identifier-quote-string>
@@ -16,7 +16,7 @@
         </introspection-scope>
       </schema-mapping>
     </data-source>
-    <data-source name="SQLiteDB" uuid="3c6655ea-bca2-4571-aa94-516a03780f26">
+    <data-source name="DataStore_sqlite" uuid="3c6655ea-bca2-4571-aa94-516a03780f26">
       <database-info product="SQLite" version="3.36.0" jdbc-version="2.1" driver-name="SQLite JDBC" driver-version="3.36.0.3" dbms="SQLITE" exact-version="3.36.0" exact-driver-version="3.36">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>

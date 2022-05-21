@@ -16,7 +16,7 @@ class ModelType(Base):
     name = Column(String(50), nullable=False, unique=True)
     created_at = Column(DateTime, default=datetime.utcnow)
 
-    model = relationship("ModelModelType", back_populates="ModelType")
+    # model = relationship("ModelModelType", back_populates="ModelType")
 
     def __repr__(self) -> str:
         return f"Type={self.name}"
@@ -31,9 +31,9 @@ class Model(Base):
     description = Column(String(255), nullable=False, unique=False)
     created_at = Column(DateTime, default=datetime.utcnow)
 
-    model_type = relationship("ModelModelType", back_populates="Model")
-    user = relationship("userModel", back_populates="Model")
-    model_version = relationship("ModelModelVersion", back_populates="Model")
+    # model_type = relationship("ModelModelType", back_populates="Model")
+    # user = relationship("userModel", back_populates="Model")
+    # model_version = relationship("ModelModelVersion", back_populates="Model")
 
     def __repr__(self):
         return f"Model {self.id}, model_id {self.model_id}"
@@ -46,7 +46,7 @@ class ModelVersion(Base):
     description = Column(String(255), nullable=False, unique=False)
     created_at = Column(DateTime, default=datetime.utcnow)
 
-    model = relationship("ModelModelVersion", back_populates="ModelVersion")
+    # model = relationship("ModelModelVersion", back_populates="ModelVersion")
 
     def __repr__(self):
         return f"Model Version {self.id}, model_version_id {self.model_version_id}"

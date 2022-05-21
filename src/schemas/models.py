@@ -18,25 +18,36 @@ class ModelTypeInDBBase(ModelTypeBase):
     id: int
     created_at: datetime
 
+    class Config:
+        orm_mode = True
+
 
 class ModelType(ModelTypeInDBBase):
     """Additional properties to return via API"""
+
     pass
 
 
 class ModelTypeInDB(ModelTypeInDBBase):
     """Additional properties saved in db"""
+
     pass
-    
+
 
 class ModelBase(BaseModel):
-    name: str
-    description: str
-
+    model_id: int = -1
 
 
 class ModelCreate(ModelBase):
-    model_id: int
+    name: str
+    description: str
+
+    def parser(self) -> dict:
+        return {
+            "name": self.name,
+            "model_id": self.model_id,
+            "description": self.description,
+        }
 
 
 class ModelUpdate(ModelBase):
@@ -47,23 +58,33 @@ class ModelInDBBase(ModelBase):
     id: int
     created_at: datetime
 
+    class Config:
+        orm_mode = True
+
 
 class Model(ModelInDBBase):
     """Additional properties to return via API"""
+
     pass
 
 
 class ModelInDB(ModelInDBBase):
     """Additional properties saved in db"""
+
     pass
 
 
 class ModelVersionBase(BaseModel):
-    description: str
+    model_version_id: int = -1
 
 
 class ModelVersionCreate(ModelVersionBase):
-    model_version_id: int
+    description: str
+
+    def parser(self):
+        return {"model_version_id": self.model_version_id,
+                "description": self.description}
+
 
 
 class ModelVersionUpdate(ModelVersionBase):
@@ -74,12 +95,17 @@ class ModelVersionInDBBase(ModelVersionBase):
     id: int
     created_at: datetime
 
+    class Config:
+        orm_mode = True
+
 
 class ModelVersion(ModelVersionInDBBase):
     """Additional properties to return via API"""
+
     pass
 
 
 class ModelVersionInDB(ModelVersionInDBBase):
     """Additional properties saved in db"""
+
     pass
