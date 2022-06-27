@@ -19,3 +19,16 @@ section = config.config_ini_section
 config.set_section_option(section, "sqlalchemy.url", os.environ["DATABASE_URL"])
 ```
 3. set `DATABASE_URL` in .env file
+
+
+
+## Go api backend
+
+#### Environmental Variables
+
+| Name | Default Value                                                   | Description                                      |
+|:-----|:----------------------------------------------------------------|:-------------------------------------------------|
+LOG_LEVEL| info                                                            | application log level                                                |
+DATABASE_URL| user=postgres password=password dbname=Database sslmode=disable | db connection string                             |
+DATABASE_MAX_CONN_LIFETIME| 60                                                              | connection lifetime in minutes if greater than 0 |
+val| val                                                             | val                                              |

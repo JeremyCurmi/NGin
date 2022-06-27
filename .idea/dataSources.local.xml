@@ -10,21 +10,11 @@
       <user-name>postgres</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="database" qname="DataStore">
+          <node kind="database">
+            <name qname="DataStore" />
+            <name qname="postgres" />
             <node kind="schema" qname="public" />
           </node>
-        </introspection-scope>
-      </schema-mapping>
-    </data-source>
-    <data-source name="DataStore_sqlite" uuid="3c6655ea-bca2-4571-aa94-516a03780f26">
-      <database-info product="SQLite" version="3.36.0" jdbc-version="2.1" driver-name="SQLite JDBC" driver-version="3.36.0.3" dbms="SQLITE" exact-version="3.36.0" exact-driver-version="3.36">
-        <identifier-quote-string>&quot;</identifier-quote-string>
-      </database-info>
-      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
-      <auth-provider>no-auth</auth-provider>
-      <schema-mapping>
-        <introspection-scope>
-          <node kind="schema" qname="@" />
         </introspection-scope>
       </schema-mapping>
     </data-source>
